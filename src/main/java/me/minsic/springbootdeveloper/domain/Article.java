@@ -40,6 +40,11 @@ public class Article {
         this.content = content;
     }
 
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
+
 //    //게터
 //    public Long getId() { return id; }
 //    public String getTitle() {return title;}
