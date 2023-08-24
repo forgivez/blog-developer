@@ -40,7 +40,7 @@ class BlogApiControllerTest {
 
     /* objcetMapper 클래스 설명
     * 이 클래스로 만든 자바 객체를 JSON 데이터로 변환하는 직렬화 또는
-    * 반대로 JSON 데이터를 자바에서 사용하기 위해서 객체로 변환하는 역직렬화 할때 ㅅ용
+    * 반대로 JSON 데이터를 자바에서 사용하기 위해서 객체로 변환하는 역직렬화 할때 사용
     *  */
     @Autowired
     protected ObjectMapper objectMapper;
