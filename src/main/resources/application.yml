@@ -7,8 +7,9 @@ spring:
         format_sql: true
     #테이블 생성 후에 data.sql 실행
     defer-datasource-initialization: true
-  datasource:
+  datasource: # 데이터 베이스 정보 추가 가능
     url: jdbc:h2:mem:testdb
+    username: sa
   h2:
     console:
       enabled: true
