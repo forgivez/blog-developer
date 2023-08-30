@@ -13,5 +13,6 @@ spring:
   h2:
     console:
       enabled: true
-    #테이블 생성 후에 data.sql 실행
-    defer-datasource-initialization: true
+jwt:
+  issuer: forgiveZ@naver.com
+  secret_key: study-springboot
